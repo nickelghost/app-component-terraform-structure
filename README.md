@@ -6,9 +6,9 @@ A battle tested way of structuring Terraform modules in a reusable way.
 
 There are only three layers in the structure:
 
-1. _environment(s)_ - your root module(s)
-2. _apps_ - specific deployment use-cases
-3. _components_ - generic modules containing common resource combinations
+1. **environment(s)** - your root module(s)
+2. **apps** - specific deployment use-cases
+3. **components** - generic modules containing common resource combinations
 
 Thanks to that, we limit the number of layers - decreasing the complexity of both possible dependency trees and Terraform state paths.
 
