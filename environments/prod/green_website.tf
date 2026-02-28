@@ -3,5 +3,6 @@ module "green_website" {
 }
 
 output "green_website_endpoint" {
-  value = module.green_website.endpoint
+  description = "The website endpoint URL of the green website"
+  value       = module.green_website.endpoint
 }
